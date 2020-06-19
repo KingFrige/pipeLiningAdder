@@ -1,4 +1,4 @@
-module  pipeliningadder(
+module  pipeLiningAdder(
   output    reg     [3:0]    s,
   output    reg              co,
   input             [3:0]    a,

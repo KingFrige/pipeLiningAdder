@@ -1,4 +1,4 @@
-module  pipeliningadder_tb;
+module  bench_top;
 wire      [3:0]       s;
 wire                  co;
 reg       [3:0]       a;
@@ -45,7 +45,7 @@ initial begin
   $dumpvars;
 end
 
-pipeliningadder u_pipeliningadder(
+pipeLiningAdder u_pipeLiningAdder(
   .s(s),
   .co(co),
   .a(a),

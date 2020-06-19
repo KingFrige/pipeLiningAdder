@@ -1,0 +1,24 @@
+{
+  topModule:'pipeLiningAdder',
+  flist:[
+    {
+      suffix : "",
+      isVppreproc : true,
+      flist  : [
+        {
+          path: 'flist.f',
+          tags: ["asic_sim", "asic_syn", "fpga_sim", "fpga_syn", "dummy"], 
+        }
+      ]
+    },
+  ],
+  port:[
+    {
+      clock  : 'clk',
+      freqMHz: '64',
+      reset  : 'rstn',
+      input  : 'a,b,ci',
+      output : 's,co',
+    },
+  ],
+}
