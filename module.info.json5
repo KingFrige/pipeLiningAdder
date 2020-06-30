@@ -1,5 +1,10 @@
 {
   topModule:'pipeLiningAdder',
+  vendor: '',
+  gateCount_K: '',
+  ramSize_KB: '',
+  slaveSpcae_KB: '',
+  protocol: '',
   flist:[
     {
       suffix : "",
